@@ -1,0 +1,93 @@
+/* FOR ALL COMMON CSS START */
+
+.All_NavLink_Common_Main_Heading {
+  font-size: 2.8rem;
+  /* font-family: "BarlowCondensed_Regular"; */
+  font-family: "BarlowCondensed_Semibold";
+  letter-spacing: 0.2rem;
+  line-height: 3.4rem;
+  color: #d0d6f9;
+}
+.All_Common_Description {
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+  font-family: "Barlow_Regular";
+  color: #d0d6f9;
+}
+.CREW_And_TerMinoLogy_Common_Heading {
+  font-size: 5.6rem;
+  line-height: 6.5rem;
+  color: white;
+  font-family: "Bellefair_Regular";
+}
+.ALL_LIght_Heading_Number {
+  color: #707070;
+  font-size: 2.8rem;
+  font-family: "BarlowCondensed_Semibold";
+  font-weight: bold;
+  line-height: 3.4rem;
+}
+/* FOR ALL COMMON CSS END */
+/* ----------------------------------------------------------- */
+/* COMMON CSS FOR DESTINATION CLASS START*/
+
+.Destination_Common_Heading {
+  font-size: 10rem;
+  font-family: "Bellefair_Regular";
+  line-height: 11.5rem;
+}
+.Destination_Common_Connected_Link_a {
+  font-size: 2rem;
+  font-family: "BarlowCondensed_Regular";
+  line-height: 1.6rem;
+  letter-spacing: 2.75px;
+  color: #d0d6f9;
+  padding: 0rem 0rem 1rem 0rem;
+}
+.Destination_Common_Est_and_Avg {
+  font-size: 1.4rem;
+  font-family: "BarlowCondensed_Regular";
+  color: #d0d6f9;
+}
+.Destination_Common_Est_and_Avg_Value {
+  font-size: 2.8rem;
+  font-family: "Barlow_Regular";
+  color: white;
+}
+/* COMMON CSS FOR DESTINATION CLASS END*/
+
+/* --------------------------------------------------------------------------------------- */
+
+/* COMMON CSS FOR CREW CLASS START*/
+
+.Crew_Common_Heading_Low_Visible {
+  font-size: 3.2rem;
+  color: white;
+  font-family: "Bellefair_Regular";
+}
+
+/* COMMON CSS FOR CREW CLASS END*/
+
+/* -------------------------------------------------------------------------------------- */
+
+/* COMMON CSS FOR TERMINOLOGY CLASS START*/
+
+.Terminology_Small_Heading {
+  font-size: 2rem;
+  line-height: 1.9rem;
+  letter-spacing: 0.1rem;
+  font-family: "BarlowCondensed_Regular";
+  color: #d0d6f9;
+}
+/* COMMON CSS FOR TERMINOLOGY CLASS END*/
+
+@media only screen and (max-width: 768px) {
+  .Destination_Common_Heading {
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .CREW_And_TerMinoLogy_Common_Heading {
+    font-size: 4.9rem;
+  }
+}

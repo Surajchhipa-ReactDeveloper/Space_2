@@ -1,0 +1,39 @@
+/* ************************************** */
+/* -----------BARLOW FONT START */
+/* ************************************** */
+
+@font-face {
+  font-family: "Barlow_Regular";
+  src: url("../assets/fonts/Barlow-Regular.ttf") format("TrueType");
+}
+
+/* ************************************** */
+/* -----------BARLOW FONT END ************************** */
+/* ************************************** */
+
+/* ************************************** */
+/* -----------BARLOW CONDENSED FONT START ****************/
+/* ************************************** */
+
+@font-face {
+  font-family: "BarlowCondensed_Regular";
+  src: url("../assets/fonts/BarlowCondensed-Regular.ttf") format("TrueType");
+}
+
+/* ************************************** */
+/* -----------BARLOW  CONDENSED FONT START ****************/
+/* ************************************** */
+
+
+/* ************************************** */
+/* -----------Bellefair FONT START ****************/
+/* ************************************** */
+
+@font-face {
+  font-family: "Bellefair_Regular";
+  src: url("../assets/fonts/Bellefair-Regular.ttf") format("TrueType");
+}
+
+/* ************************************** */
+/* -----------Bellefair FONT START ****************/
+/* ************************************** */

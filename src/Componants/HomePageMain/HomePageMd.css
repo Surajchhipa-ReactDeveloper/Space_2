@@ -1,0 +1,42 @@
+@media only screen and (max-width: 768px) {
+  .Main_Home_Page {
+    background: url("../../assets/images/HomePage_Tablate_Background.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20rem;
+    height: 100vh;
+    padding-bottom: 7rem;
+  }
+  .Main_Home_Page_Left {
+    align-items: center;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .Explore_div {
+    height: 25.4rem;
+    width: 25.4rem;
+    font-size: 3rem;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .Explore_div {
+    height: 23.4rem;
+    width: 23.4rem;
+    font-size: 2.9rem;
+  }
+  .Main_Home_Page {
+    gap: 18rem;
+    padding-bottom: 30rem;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .Main_Home_Page {
+    padding-bottom: 10rem;
+  }
+}

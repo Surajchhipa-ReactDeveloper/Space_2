@@ -1,0 +1,75 @@
+.Technology_Main_Container {
+  background: url("../../assets/images/Technology_BackGroundImg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 6rem;
+  gap: 13rem;
+}
+.Technology_Main_Container_Heading {
+  display: flex;
+  gap: 1.8rem;
+  padding-left: 35rem;
+}
+.Technology_Left_First_Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+.Technology_Left_Second_Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3rem;
+  width: 49rem;
+}
+.Technology_Active_Button {
+  border: 1px solid rgba(156, 156, 156, 0.557);
+  height: 8rem;
+  border-radius: 50%;
+  width: 8rem;
+  color: rgba(156, 156, 156, 0.557);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  cursor: pointer;
+  font-size: 3rem;
+}
+.Technology_Active_Button:hover {
+  border: 1px solid white;
+  color: white;
+}
+.Technology_Left_Right_Container {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.Technology_Left_Container {
+  display: flex;
+  gap: 15rem;
+  padding-left: 34rem;
+}
+.Technology_About_Description {
+  width: 44.4rem;
+}
+.Technology_Right_Container {
+  position: absolute;
+  right: 0;
+  bottom: -20rem;
+}
+.All_Terminology_Img {
+  width: 65.5rem;
+  height: 65.7rem;
+  object-fit: contain;
+  object-position: center;
+}
+.Technology_Right_Container_Second {
+  display: none !important;
+}

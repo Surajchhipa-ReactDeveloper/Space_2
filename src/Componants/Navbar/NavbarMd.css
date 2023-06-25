@@ -1,0 +1,266 @@
+@media only screen and (max-width: 1490px) {
+  .NavBar_Left_Second_Border {
+    min-width: 87rem;
+  }
+}
+@media only screen and (max-width: 1485px) {
+  .NavBar_Left_Second_Border {
+    min-width: 85rem;
+  }
+}
+@media only screen and (max-width: 1450px) {
+  .NavBar_Left_Second_Border {
+    min-width: 80rem;
+  }
+}
+@media only screen and (max-width: 1440px) {
+  .NavBar_Left_Second_Border {
+    min-width: 75rem;
+  }
+}
+@media only screen and (max-width: 1400px) {
+  .NavBar_Left_Second_Border {
+    min-width: 70rem;
+  }
+  .NavBar_Right_Container ul {
+    gap: 6.5rem;
+  }
+}
+@media only screen and (max-width: 1370px) {
+  .NavBar_Left_Second_Border {
+    min-width: 65.5rem;
+  }
+}
+@media only screen and (max-width: 1340px) {
+  .NavBar_Left_Second_Border {
+    min-width: 62rem;
+  }
+}
+@media only screen and (max-width: 1300px) {
+  .NavBar_Left_Second_Border {
+    min-width: 58rem;
+  }
+  .NavBar_Right_Container ul {
+    gap: 6rem;
+  }
+}
+@media only screen and (max-width: 1280px) {
+  .NavBar_Left_Second_Border {
+    min-width: 79rem;
+  }
+}
+@media only screen and (max-width: 1260px) {
+  .NavBar_Left_Second_Border {
+    min-width: 75rem;
+  }
+}
+@media only screen and (max-width: 1230px) {
+  .NavBar_Left_Second_Border {
+    min-width: 71rem;
+  }
+  .NavBar_Right_Container ul {
+    gap: 5.7rem;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .NavBar_Left_Second_Border {
+    min-width: 68rem;
+  }
+  .NavBar_Right_Container {
+    min-width: 105rem;
+  }
+}
+@media only screen and (max-width: 1170px) {
+  .NavBar_Left_Second_Border {
+    min-width: 64rem;
+  }
+  .NavBar_Right_Container ul {
+    gap: 5.4rem;
+  }
+}
+@media only screen and (max-width: 1150px) {
+  .NavBar_Left_Second_Border {
+    min-width: 66rem;
+  }
+  .NavBar_Right_Container {
+    min-width: 100rem;
+  }
+}
+@media only screen and (max-width: 1110px) {
+  .NavBar_Left_Second_Border {
+    min-width: 64rem;
+  }
+}
+@media only screen and (max-width: 1085px) {
+  .NavBar_Left_Second_Border {
+    min-width: 56.5rem;
+  }
+}
+@media only screen and (max-width: 1055px) {
+  .NavBar_Left_Second_Border {
+    min-width: 51.5rem;
+  }
+}
+@media only screen and (max-width: 1020px) {
+  .NavBar_Left_Second_Border {
+    min-width: 48rem;
+  }
+}
+@media only screen and (max-width: 995px) {
+  .NavBar_Left_Second_Border {
+    min-width: 47rem;
+  }
+  .NavBar_Right_Container {
+    min-width: 95rem;
+  }
+  .NavBar_Right_Container ul {
+    gap: 5.3rem;
+  }
+}
+@media only screen and (max-width: 970px) {
+  .NavBar_Left_Second_Border {
+    min-width: 46.3rem;
+  }
+  .NavBar_Right_Container {
+    min-width: 91rem;
+  }
+  .NavBar_Right_Container ul {
+    gap: 5.1rem;
+  }
+}
+@media only screen and (max-width: 955px) {
+  .NavBar_Left_Second_Border {
+    min-width: 43.5rem;
+  }
+}
+@media only screen and (max-width: 925px) {
+  .NavBar_Left_Second_Border {
+    min-width: 41rem;
+  }
+}
+@media only screen and (max-width: 910px) {
+  .NavBar_Left_Second_Border {
+    min-width: 45rem;
+  }
+  .NavBar_Right_Container {
+    min-width: 83rem;
+  }
+  .NavBar_Right_Container ul {
+    gap: 4.4rem;
+  }
+}
+@media only screen and (max-width: 890px) {
+  .NavBar_Left_Second_Border {
+    min-width: 41rem;
+  }
+}
+@media only screen and (max-width: 865px) {
+  .NavBar_Left_Second_Border {
+    min-width: 38rem;
+  }
+}
+@media only screen and (max-width: 845px) {
+  .NavBar_Left_Second_Border {
+    min-width: 36.5rem;
+  }
+}
+@media only screen and (max-width: 820px) {
+  .NavBar_Left_Second_Border {
+    min-width: 35.5rem;
+    left: 14rem;
+  }
+  .NavBar_Right_Container {
+    min-width: 80rem;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .NavBar_Left_Second_Border {
+    min-width: 32.5rem;
+  }
+  .NavBar_Right_Container {
+    min-width: 80rem;
+  }
+}
+@media only screen and (max-width: 770px) {
+  .NavBar_Left_Second_Border {
+    min-width: 30rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .NavBar_Left_Second_Border {
+    display: none;
+  }
+  .NavBar_Left_Container {
+    /* position: none; */
+  }
+  .NavBar_Main_Container {
+    top: 0rem;
+    padding: 0.4rem 0rem;
+  }
+  .NavBar_Right_Container {
+    min-width: 75rem;
+    padding: 0rem 0rem;
+    /* height: 7rem; */
+  }
+}
+@media only screen and (max-width: 600px) {
+  .Menu_Bar {
+    display: block !important;
+    z-index: 18;
+    position: relative;
+    margin-right: 2rem;
+  }
+  .Open_Bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 8.2rem;
+    width: 8.2rem;
+  }
+  .NavBar_Right_Container {
+    display: none;
+  }
+  .NavBar_Left_First_Logo {
+    height: 7.5rem;
+    width: 7.5rem;
+  }
+  .Mobile_Navbar {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0rem;
+    right: 0rem;
+    left: 0;
+    height: 100vh;
+    background-color: transparent;
+    backdrop-filter: none;
+    z-index: 12;
+  }
+  .Mobile_Navbar ul {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 8rem;
+    width: 75%;
+    height: 100vh;
+    backdrop-filter: blur(8px);
+    background-color: transparent;
+    position: relative;
+    z-index: 1;
+    padding: 0rem;
+    padding-left: 5rem;
+  }
+  .NavBar_Right_Container ul li a {
+    padding: 0rem;
+    padding-bottom: 1rem;
+    font-size: 3rem;
+  }
+}
+.Hamburger_Menu {
+  object-fit: cover;
+  object-position: center;
+  width: 4.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}

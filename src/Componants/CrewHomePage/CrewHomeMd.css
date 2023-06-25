@@ -1,0 +1,171 @@
+@media only screen and (max-width: 1450px) {
+  .Crew_Container_Main_Heading {
+    padding-left: 20rem;
+  }
+}
+@media only screen and (max-width: 1400px) {
+  .Crew_Container_Main_Heading {
+    padding-left: 18rem;
+  }
+}
+@media only screen and (max-width: 1350px) {
+  .Crew_Container_Main_Heading {
+    padding-left: 17rem;
+  }
+  .All_Crew_Img {
+    width: 63.57rem;
+    /* height: 75rem; */
+  }
+}
+@media only screen and (max-width: 1300px) {
+  .Crew_Container_Main_Heading {
+    padding-left: 16.5rem;
+  }
+}
+@media only screen and (max-width: 1280px) {
+  .Crew_Container_Main_Heading {
+    padding-left: 20rem;
+  }
+  .All_Crew_Img {
+    width: 60.57rem;
+    height: 88rem;
+  }
+}
+@media only screen and (max-width: 1240px) {
+  .Crew_Container_Main_Heading {
+    padding-left: 18rem;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .Crew_Container_Main_Heading {
+    padding-left: 17.5rem;
+  }
+}
+@media only screen and (max-width: 1150px) {
+  .Crew_Container_Main_Heading {
+    padding-left: 15.5rem;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  .Crew_Container_Main_Heading {
+    padding-left: 14.5rem;
+  }
+}
+@media only screen and (max-width: 1050px) {
+  .Crew_Container_Main_Heading {
+    padding-left: 12.5rem;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .Crew_Container_Main_Heading {
+    padding-left: 11.5rem;
+  }
+  .All_Crew_Img {
+    width: 58.57rem;
+  }
+}
+@media only screen and (max-width: 950px) {
+  .Crew_Container_Main_Heading {
+    padding-left: 9.5rem;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .Crew_Container_Main_Heading {
+    padding-left: 9.5rem;
+  }
+  .All_Crew_Img {
+    width: 55.57rem;
+  }
+}
+@media only screen and (max-width: 850px) {
+  .Crew_Container_Main_Heading {
+    padding-left: 9.5rem;
+  }
+  .All_Crew_Img {
+    width: 52.57rem;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .Crew_Container_Main_Heading {
+    padding-left: 9.5rem;
+  }
+  .All_Crew_Img {
+    width: 49.57rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .Crew_Container_Main_Heading {
+    padding-left: 9.5rem;
+  }
+  .All_Crew_Img {
+    width: 49.57rem;
+    height: 60rem;
+    object-fit: contain;
+  }
+  .Crew_Left_Right_Container {
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 4rem;
+  }
+  .Left_Data_Folder {
+    align-items: center;
+  }
+  .Crew_Container_Main_Heading {
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+  }
+  .Crew_Main_Container {
+    justify-content: flex-end;
+    gap: 4rem;
+  }
+  .Crew_Data_About_Description {
+    width: 80.4rem;
+    text-align: center;
+  }
+  .Data_Access_Dots {
+    justify-content: center;
+    margin-top: 4rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .Crew_Data_About_Description {
+    width: 70.4rem;
+  }
+  .All_Crew_Img {
+    width: 45.57rem;
+    height: 58rem;
+  }
+  .Crew_Data_Main_Heading_Post {
+    /* opacity: 50%; */
+  }
+}
+@media only screen and (max-width: 500px) {
+  .Crew_Left_Right_Container {
+    flex-direction: column-reverse;
+    gap: 6rem;
+  }
+  .All_Crew_Img {
+    width: 45.57rem;
+    height: 58rem;
+    object-fit: contain;
+    object-position: bottom;
+  }
+  .Crew_Data_About_Description {
+    width: 65.4rem;
+  }
+  .Crew_Left_Container {
+    flex-direction: column-reverse;
+    gap: 6rem;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .Crew_Data_About_Description {
+    width: 58rem;
+  }
+}
+@media only screen and (max-width: 360px) {
+  .Crew_Data_About_Description {
+    width: 50rem;
+  }
+}

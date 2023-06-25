@@ -1,0 +1,117 @@
+@media only screen and (max-width: 1279px) {
+  .Destination_Container_Main_Heading {
+    padding-left: 30rem;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .Destination_Container_Main_Heading {
+    padding-left: 23rem;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  .Destination_Container_Main_Heading {
+    padding-left: 19rem;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .Destination_Container_Main_Heading {
+    padding-left: 18rem;
+  }
+}
+@media only screen and (max-width: 1050px) {
+  .Destination_Container_Main_Heading {
+    padding-left: 16rem;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .Destination_Container_Main_Heading {
+    padding-left: 14rem;
+  }
+}
+@media only screen and (max-width: 950px) {
+  .Destination_Container_Main_Heading {
+    padding-left: 10.5rem;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .Destination_Container_Main_Heading {
+    padding-left: 7rem;
+  }
+}
+@media only screen and (max-width: 820px) {
+  .Destination_Container_Main_Heading {
+    padding-left: 5rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .Destination_Left_Right_Container {
+    flex-direction: column;
+  }
+  .DestinationHome_Main_Container {
+    padding-bottom: 5rem;
+    gap: 4rem;
+  }
+  .Destination_Right_Container {
+    align-items: center;
+    gap: 3rem;
+  }
+  .Destination_Data_About {
+    padding-bottom: 4rem;
+    text-align: center;
+    width: 80rem;
+    justify-content: center;
+  }
+  .Destination_Distance_And_Time {
+    justify-content: space-around;
+  }
+  .ALL_Earth_Img {
+    width: 44.5rem;
+    height: 44.5rem;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .Destination_Data_About {
+    width: 73rem;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .DestinationHome_Main_Container {
+    height: 100vh;
+  }
+  .Destination_Distance_And_Time {
+    flex-direction: column;
+    gap: 4rem;
+  }
+  .Destination_Data_About {
+    padding-bottom: 4rem;
+    text-align: center;
+    width: 65rem;
+    justify-content: center;
+  }
+  .CDT-ss {
+    align-items: center;
+  }
+  .Destination_Container_Main_Heading {
+    padding: 0;
+    justify-content: center;
+  }
+  .ALL_Earth_Img {
+    width: 40.5rem;
+    height: 40.5rem;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .Destination_Data_About {
+    width: 61rem;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .Destination_Data_About {
+    width: 56rem;
+  }
+}
+@media only screen and (max-width: 360px) {
+  .Destination_Data_About {
+    width: 50rem;
+  }
+}

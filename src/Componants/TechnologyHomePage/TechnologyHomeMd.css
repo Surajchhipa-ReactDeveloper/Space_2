@@ -1,0 +1,180 @@
+@media only screen and (max-width: 1450px) {
+}
+@media only screen and (max-width: 1400px) {
+  .Technology_Left_Container {
+    padding-left: 32rem;
+  }
+  .Technology_Main_Container_Heading {
+    padding-left: 33rem;
+  }
+}
+@media only screen and (max-width: 1350px) {
+  .Technology_Left_Container {
+    padding-left: 29rem;
+  }
+  .Technology_Main_Container_Heading {
+    padding-left: 30rem;
+  }
+}
+@media only screen and (max-width: 1300px) {
+  .Technology_Left_Container {
+    padding-left: 25rem;
+    gap: 13rem;
+  }
+  .Technology_Main_Container_Heading {
+    padding-left: 26rem;
+  }
+}
+@media only screen and (max-width: 1280px) {
+}
+@media only screen and (max-width: 1240px) {
+}
+@media only screen and (max-width: 1200px) {
+  .Technology_Left_Container {
+    padding-left: 23rem;
+  }
+  .Technology_Main_Container_Heading {
+    padding-left: 23rem;
+  }
+}
+@media only screen and (max-width: 1150px) {
+}
+@media only screen and (max-width: 1100px) {
+  .Technology_Left_Container {
+    padding-left: 19rem;
+    gap: 10rem;
+  }
+  .Technology_Main_Container_Heading {
+    padding-left: 20rem;
+  }
+}
+@media only screen and (max-width: 1050px) {
+  .Technology_Left_Container {
+    padding-left: 16rem;
+    gap: 8rem;
+  }
+  .Technology_Main_Container_Heading {
+    padding-left: 17rem;
+  }
+  .All_Terminology_Img {
+    width: 60.5rem;
+    height: 65.7rem;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .Technology_Left_Container {
+    padding-left: 14rem;
+    gap: 7rem;
+  }
+  .Technology_Main_Container_Heading {
+    padding-left: 15rem;
+  }
+}
+@media only screen and (max-width: 950px) {
+  .Technology_Left_Container {
+    padding-left: 12rem;
+  }
+  .Technology_Main_Container_Heading {
+    padding-left: 13rem;
+  }
+  .All_Terminology_Img {
+    width: 55.5rem;
+    height: 65.7rem;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .Technology_Left_Container {
+    padding-left: 8rem;
+    gap: 5rem;
+  }
+  .Technology_Main_Container_Heading {
+    padding-left: 9rem;
+  }
+}
+@media only screen and (max-width: 850px) {
+  .Technology_Left_Container {
+    padding-left: 4rem;
+    gap: 5rem;
+  }
+  .Technology_Main_Container_Heading {
+    padding-left: 6rem;
+  }
+
+  .All_Terminology_Img {
+    width: 50.5rem;
+    height: 65.7rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .Technology_Right_Container {
+    display: none;
+  }
+  .Technology_Right_Container_Second {
+    display: block !important;
+  }
+  .Technology_Image_Table {
+    /* width: 100%; */
+    /* height: 31rem; */
+  }
+  .All_Terminology_Img_Table {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  .Technology_Left_Right_Container {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 9rem;
+    position: unset;
+  }
+  .Technology_Left_Container {
+    flex-direction: column;
+    padding: 0rem;
+  }
+  .Technology_Left_First_Container {
+    flex-direction: row;
+  }
+  .Technology_Left_Second_Container {
+    align-items: center;
+  }
+  .Technology_About_Description {
+    width: 80rem;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .Technology_About_Description {
+    width: 72rem;
+  }
+  .Technology_Active_Button {
+    height: 7rem;
+    width: 7rem;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .Technology_About_Description {
+    width: 64rem;
+  }
+  .Technology_Active_Button {
+    height: 6rem;
+    width: 6rem;
+  }
+  .Technology_Main_Container_Heading {
+    justify-content: center;
+    padding: 0rem;
+  }
+  .Technology_Main_Container {
+    gap: 8rem;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .Technology_About_Description {
+    width: 56rem;
+  }
+}
+@media only screen and (max-width: 360px) {
+  .Technology_About_Description {
+    width: 50rem;
+  }
+}

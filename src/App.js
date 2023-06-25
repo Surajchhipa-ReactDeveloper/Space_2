@@ -1,25 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
+// import "./App.css";
+import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
+import HomePage from "./Componants/HomePageMain/HomePage";
+import Navbar from "./Componants/Navbar/Navbar";
+import { Suspense, lazy } from "react";
+import DestinationHome from "./Componants/DestaniationHomePage/DestaniationHome";
+import ScreenRoutes from "./Routes/RouteLinks";
+import CrewHome from "./Componants/CrewHomePage/CrewHome";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Router>
+        <Suspense fallback={"Loading..."}>
+          <Navbar />
+          <Routes>
+            {ScreenRoutes.map((item, index) => {
+              return (
+                <Route
+                  path={item.path}
+                  name={item.name}
+                  element={item.element}
+                  key={index + item.path}
+                ></Route>
+              );
+            })}
+          </Routes>
+        </Suspense>
+      </Router>
+
+      {/* <HomePage /> */}
+      {/* <CrewHome /> */}
+      {/* <DestinationHome /> */}
+      {/* <TechnologyHome /> */}
+    </>
   );
-}
+};
 
 export default App;

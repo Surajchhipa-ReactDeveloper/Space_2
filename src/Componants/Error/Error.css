@@ -1,0 +1,28 @@
+.Error_Container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: column;
+  position: relative;
+  z-index: 55;
+}
+.Error_Container img {
+  width: 100%;
+  height: 80%;
+  object-fit: contain;
+  object-position: center;
+}
+.GO_Back {
+  margin-bottom: 10rem;
+  padding: 1.5rem 4rem;
+  color: white;
+  cursor: pointer;
+  font-family: "Barlow_Regular";
+
+  background-color: #007dfe;
+}
+.GO_Back:hover {
+  background-color: #084f95;
+}

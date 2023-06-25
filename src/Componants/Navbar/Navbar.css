@@ -1,0 +1,85 @@
+.NavBar_Main_Container {
+  width: 100%;
+  top: 1rem;
+  left: 0rem;
+  right: 0rem;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* border: 2px solid red; */
+  height: 9.6rem;
+  z-index: 15;
+}
+span {
+  font-weight: bold;
+  /* line-height: 3.4rem; */
+  margin-right: 0.5rem;
+}
+.NavBar_Left_Container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2rem;
+  position: relative;
+  padding-left: 5rem;
+}
+.NavBar_Left_First_Logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 50%;
+  /* padding: 0.1rem; */
+}
+.Main_Logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  min-width: 5rem;
+  min-height: 5rem;
+}
+.NavBar_Left_Second_Border {
+  position: absolute;
+  border: 1.5px solid #97979771;
+  min-width: 93rem;
+  left: 15rem;
+  z-index: 2;
+}
+.NavBar_Right_Container {
+  z-index: 1;
+  min-width: 110rem;
+  background: rgba(255, 255, 255, 0.085);
+  backdrop-filter: blur(2rem);
+}
+.NavBar_Right_Container ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8rem;
+  padding: 3.4rem 2rem;
+  list-style: none;
+}
+.NavBar_Right_Container ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: "BarlowCondensed_Regular";
+  letter-spacing: 2.44px;
+  font-size: 2rem;
+  line-height: 1.9rem;
+  padding: 2.9rem 0rem;
+}
+.NavBar_Right_Container ul li a:hover {
+  text-decoration: none;
+  color: #979797;
+  border-bottom: 4px solid #979797;
+  transition: 0.4 ease-in-out;
+}
+
+.Menu_Bar {
+  display: none !important;
+}
+.Active {
+  border-bottom: 4px solid white !important;
+}

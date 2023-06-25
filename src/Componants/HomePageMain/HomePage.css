@@ -1,0 +1,48 @@
+.Main_Home_Page {
+  background: url("../../assets/images/HomePage_BackGroundImg.png");
+  width: 100%;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  padding-bottom: 15rem;
+}
+.Main_Home_Page_First_Small_Heading {
+  margin-bottom: 6rem;
+}
+.Main_Home_Page_Description {
+  width: 44.4rem;
+}
+.Main_Home_Page_Left {
+  display: flex;
+  flex-direction: column;
+  width: 48.95rem;
+  gap: 6rem;
+  justify-content: center;
+  min-height: 37.4rem;
+}
+.Main_Home_Page_Big_Heading {
+  font-size: 15rem;
+  font-family: "Bellefair_Regular";
+  color: white;
+}
+.Main_Home_Page_Right {
+}
+.Explore_div {
+  font-family: "Bellefair_Regular";
+  font-size: 3.2rem;
+  letter-spacing: 0.2rem;
+  height: 27.4rem;
+  width: 27.4rem;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Explore_div:hover {
+  box-shadow: 0rem 0rem 0.2rem 7rem rgba(255, 255, 255, 0.185);
+}
