@@ -67,18 +67,20 @@ const CrewHome = () => {
                         {CrewAbout}
                       </div>
                     </div>
-                    <div className="Data_Access_Dots">
-                      {CrewSlider.map((item, index) => {
-                        return (
-                          <div
-                            className={`Access_Dotes ${
-                              index === currentSlider ? "ActiveCrew" : ""
-                            }`}
-                            key={index + item.id}
-                            onClick={() => goToSlide(index)}
-                          ></div>
-                        );
-                      })}
+                    <div className="Position_Container">
+                      <div className="Data_Access_Dots">
+                        {CrewSlider.map((item, index) => {
+                          return (
+                            <div
+                              className={`Access_Dotes ${
+                                index === currentSlider ? "ActiveCrew" : ""
+                              }`}
+                              key={index + item.id}
+                              onClick={() => goToSlide(index)}
+                            ></div>
+                          );
+                        })}
+                      </div>
                     </div>
                   </div>
                   <div className="Crew_Right_Container">

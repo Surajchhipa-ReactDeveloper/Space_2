@@ -117,14 +117,16 @@
   }
   .Crew_Main_Container {
     justify-content: flex-end;
-    gap: 4rem;
+    gap: 6rem;
   }
   .Crew_Data_About_Description {
     width: 80.4rem;
     text-align: center;
   }
   .Data_Access_Dots {
-    justify-content: center;
+    top: 45rem;
+    left: 44%;
+    gap: 2.5rem;
     margin-top: 4rem;
   }
 }
@@ -157,6 +159,10 @@
   .Crew_Left_Container {
     flex-direction: column-reverse;
     gap: 6rem;
+  }
+  .Data_Access_Dots {
+    top: 88rem;
+    left: 41% ;
   }
 }
 @media only screen and (max-width: 400px) {
