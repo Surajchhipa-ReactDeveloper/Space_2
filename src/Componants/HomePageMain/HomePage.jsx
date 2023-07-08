@@ -1,6 +1,7 @@
 import React from "react";
-import "./HomePage.css"
-import "./HomePageMd.css"
+import "./HomePage.css";
+import "./HomePageMd.css";
+import { NavLink } from "react-router-dom";
 
 const HomePage = () => {
   return (
@@ -19,7 +20,9 @@ const HomePage = () => {
           </div>
         </div>
         <div className="Main_Home_Page_Right">
-          <div className="Explore_div">EXPLORE </div>
+          <NavLink to="/destination">
+            <div className="Explore_div">EXPLORE </div>
+          </NavLink>
         </div>
       </div>
     </>

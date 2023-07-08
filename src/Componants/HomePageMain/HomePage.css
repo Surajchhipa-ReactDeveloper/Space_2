@@ -44,5 +44,7 @@
   justify-content: center;
 }
 .Explore_div:hover {
-  box-shadow: 0rem 0rem 0.2rem 7rem rgba(255, 255, 255, 0.185);
+  box-shadow: 0rem 0rem 0.2rem 7rem rgba(255, 255, 255, 0.319);
+  /* transform: all 2s ; */
+  transition: all .4s ease-in-out;
 }

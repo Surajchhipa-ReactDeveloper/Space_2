@@ -68,7 +68,9 @@ const DestinationHome = () => {
       case "TITAN": {
         setEarthImg(Images.Destination_4);
         setEarthName("TITAN");
-        setEarthAbout("The only moon Known to have a dense atmosphere other then Earth,Titan is a home away from home ( just a few hundred degrees colder! ) As a bonus ,you get striking views of the Rings of Saturn");
+        setEarthAbout(
+          "The only moon Known to have a dense atmosphere other then Earth,Titan is a home away from home ( just a few hundred degrees colder! ) As a bonus ,you get striking views of the Rings of Saturn"
+        );
         setDistance("1.6, BIL KM");
         setDuration("7 YEARS");
         setIsActive(index);

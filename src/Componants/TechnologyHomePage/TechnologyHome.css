@@ -29,6 +29,7 @@
   justify-content: center;
   gap: 3rem;
   width: 49rem;
+  /* height: 40rem; */
 }
 .Technology_Active_Button {
   border: 1px solid rgba(156, 156, 156, 0.557);
@@ -58,6 +59,8 @@
 }
 .Technology_About_Description {
   width: 44.4rem;
+  height: 20rem;
+  /* border: 2px solid violet; */
 }
 .Technology_Right_Container {
   position: absolute;

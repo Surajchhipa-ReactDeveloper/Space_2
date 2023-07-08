@@ -55,12 +55,15 @@
 }
 .Crew_Data_About_Description {
   width: 44.4rem;
+  /* border: 2px solid red; */
+  /* height: 10rem; */
 }
 .Crew_Images {
   display: flex;
   align-items: flex-end;
   justify-content: center;
 }
+
 .All_Crew_Img {
   width: 66.57rem;
   height: 80rem;
@@ -74,11 +77,8 @@
   height: 3rem;
   /* border: 2px solid rgb(16, 39, 244); */
   display: flex;
-  bottom: 20rem;
-  /* left: 25rem; */
   gap: 2.5rem;
-  margin-top: 8rem;
-  position: fixed;
+  margin-top: 6rem;
 }
 .Position_Container {
   /* border: 2px solid rgb(194, 0, 0); */

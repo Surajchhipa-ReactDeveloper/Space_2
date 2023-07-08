@@ -65,7 +65,6 @@ const TechnologyHome = () => {
         setIsActive(index);
 
         break;
-        console.log("hello world");
       }
       default:
         break;

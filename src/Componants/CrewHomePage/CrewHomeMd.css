@@ -124,10 +124,7 @@
     text-align: center;
   }
   .Data_Access_Dots {
-    top: 45rem;
-    left: 44%;
-    gap: 2.5rem;
-    margin-top: 4rem;
+    justify-content: center;
   }
 }
 @media only screen and (max-width: 600px) {
@@ -160,10 +157,10 @@
     flex-direction: column-reverse;
     gap: 6rem;
   }
-  .Data_Access_Dots {
+  /* .Data_Access_Dots {
     top: 88rem;
     left: 41% ;
-  }
+  } */
 }
 @media only screen and (max-width: 400px) {
   .Crew_Data_About_Description {

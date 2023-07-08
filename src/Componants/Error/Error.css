@@ -26,3 +26,14 @@
 .GO_Back:hover {
   background-color: #084f95;
 }
+@media only screen and (max-width: 650px) {
+  .Error_Container {
+    justify-content: center;
+  }
+  .Error_Container img {
+    height: 50%;
+  }
+  .GO_Back {
+    margin-bottom: 1rem;
+  }
+}

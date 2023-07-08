@@ -47,8 +47,10 @@
   align-items: center;
   justify-content: flex-start;
   width: 44.4rem;
+  height: 18rem;
   border-bottom: 1.5px solid white;
   padding-bottom: 8rem;
+  /* border: 2px solid red; */
 }
 .Destination_Distance_And_Time {
   display: flex;

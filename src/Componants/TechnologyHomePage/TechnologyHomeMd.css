@@ -94,7 +94,7 @@
 @media only screen and (max-width: 850px) {
   .Technology_Left_Container {
     padding-left: 4rem;
-    gap: 5rem;
+    gap: 3rem;
   }
   .Technology_Main_Container_Heading {
     padding-left: 6rem;
@@ -125,7 +125,7 @@
     flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
-    gap: 9rem;
+    gap: 4rem;
     position: unset;
   }
   .Technology_Left_Container {
@@ -141,6 +141,16 @@
   .Technology_About_Description {
     width: 80rem;
     text-align: center;
+    height: 14rem;
+    /* border: 2px solid violet; */
+  }
+  .Technology_Main_Container {
+    justify-content: flex-end;
+    gap: 8rem;
+    padding-bottom: 5rem;
+  }
+  .Technology_Left_Second_Container {
+    gap: 2rem;
   }
 }
 @media only screen and (max-width: 650px) {
@@ -150,6 +160,10 @@
   .Technology_Active_Button {
     height: 7rem;
     width: 7rem;
+  }
+  .Technology_Main_Container {
+    /* justify-content: center; */
+    padding-bottom: 10rem;
   }
 }
 @media only screen and (max-width: 500px) {
@@ -166,6 +180,7 @@
   }
   .Technology_Main_Container {
     gap: 8rem;
+    justify-content: center;
   }
 }
 @media only screen and (max-width: 450px) {
